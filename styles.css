@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'ubuntu', sans-serif;
+}
+#accpage{
+  background-image: url("./images/githubimage.jpg");
+  min-height: 100vh;
+  background-blend-mode: darken;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#indexpage{
+    background-image: url("./images/githubimage.jpg");
+    min-height: 100vh;
+    background-blend-mode: darken;
+}
+#header{
+   color: white; 
+   font-family: 'Roboto', sans-serif ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+#ToSearch {
+  margin: 0 auto;
+  transform: translateY(10rem);
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ToSearch input{
+  border: 0 solid transparent;
+  border-radius: 2rem;
+  background-color: #373154;
+  
+  outline:0;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+#overview {
+  /* border-radius: 20px;
+  border-width: 1rem;
+  /* margin-top: -10rem;
+  margin-right:10rem; */
+  /* border-top: 6rem;
+  border-style: solid; */
+  /* transform: translateY(3rem); */
+  /* width: 90vh;
+  height: 60vh;
+  transform: translateY(3rem);
+  color: rgb(60, 48, 82); */
+  /* margin: 0 auto; */
+  /* display: flex;
+  align-items:center;
+  flex-direction:row;
+  justify-content:center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border:1rem solid rgb(60, 48, 82);
+  border-top: 4.5rem solid rgb(60, 48, 82);
+  border-radius: 0.5rem;
+}
+#searcher button{
+  font-size:1rem;
+  border-radius: 2rem;
+  padding-left:7%;
+  padding-right:7%;
+  margin:0 auto;
+}
+#accpage{
+  display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+.repo{
+  
+  border-radius: 20px;
+  border: thick double blue;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+  color:white;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+}
+#accicon{
+  scale:0.5;
+  margin-top: -3rem;
+  margin-right: 25rem;
+  border:0px solid transparent;
+  border-radius:0rem;
+  transition-duration: 1s;
+}
+#accicon:hover{
+  border-radius:10rem;
+  transition-duration: 1s;
+}
+#username_result{
+  color:#ffffff;
+}
+#profile{
+  width:40%;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
